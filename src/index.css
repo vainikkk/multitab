@@ -1,16 +1,12 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'Kanit', 'Roboto', 'Playfair Display', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* #9fd0cc */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+
 .sound-button {
   display: flex;
   margin-bottom: 20px;
@@ -28,7 +24,10 @@ code {
   min-width: 100%;
   position: absolute;
   top: 0;
+  overflow: hidden;
   width: auto;
+  display: flex;
+  align-items: center;
 }
 .cover.black {
   background-color: rgba(0, 0, 0, 0.6);
@@ -42,4 +41,23 @@ code {
   width: 100%;
   height: 100%;
   z-index: 1;
+}
+
+.cardForm{
+  /* margin-top: 50%; */
+  margin-left: 4rem;
+  border-radius: 20px !important;
+}
+.cardForm1{
+  padding: 20px;
+  margin-bottom: 0 !important;
+}
+.dhruvin{
+  height: 100%;
+  transition: all 3s ease;
+}
+@media  (max-width: 600px) {
+  .cardForm{
+    margin-right: 4rem;
+  }
 }
